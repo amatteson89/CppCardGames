@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8AC642C164480A1003972FA /* WarGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AC642A164480A1003972FA /* WarGame.cpp */; };
+		D8D6F9DE163E1A5200D20981 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F9DD163E1A5200D20981 /* main.cpp */; };
+		D8D6F9E0163E1A5200D20981 /* Card_Game_Set_up.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8D6F9DF163E1A5200D20981 /* Card_Game_Set_up.1 */; };
+		D8D6F9E9163E1B1800D20981 /* Dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F9E7163E1B1800D20981 /* Dealer.cpp */; };
+		D8D6F9EC163E1B5800D20981 /* PlayingCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F9EA163E1B5800D20981 /* PlayingCard.cpp */; };
+		D8D6F9EF163E1B7A00D20981 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F9ED163E1B7A00D20981 /* Player.cpp */; };
+		D8D6F9F2163E1CB600D20981 /* CardDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F9F0163E1CB600D20981 /* CardDeck.cpp */; };
+		D8FE9A3D1645B04D00AC03CF /* BlackJackGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9A3B1645B04D00AC03CF /* BlackJackGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8D6F9D7163E1A5200D20981 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D8D6F9E0163E1A5200D20981 /* Card_Game_Set_up.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8AC642A164480A1003972FA /* WarGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WarGame.cpp; sourceTree = "<group>"; };
+		D8AC642B164480A1003972FA /* WarGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarGame.h; sourceTree = "<group>"; };
+		D8D6F9D9163E1A5200D20981 /* Card Game Set up */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Card Game Set up"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D6F9DD163E1A5200D20981 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8D6F9DF163E1A5200D20981 /* Card_Game_Set_up.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Card_Game_Set_up.1; sourceTree = "<group>"; };
+		D8D6F9E7163E1B1800D20981 /* Dealer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dealer.cpp; sourceTree = "<group>"; };
+		D8D6F9E8163E1B1800D20981 /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		D8D6F9EA163E1B5800D20981 /* PlayingCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayingCard.cpp; sourceTree = "<group>"; };
+		D8D6F9EB163E1B5800D20981 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		D8D6F9ED163E1B7A00D20981 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		D8D6F9EE163E1B7A00D20981 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D8D6F9F0163E1CB600D20981 /* CardDeck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardDeck.cpp; sourceTree = "<group>"; };
+		D8D6F9F1163E1CB600D20981 /* CardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDeck.h; sourceTree = "<group>"; };
+		D8FE9A3B1645B04D00AC03CF /* BlackJackGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlackJackGame.cpp; sourceTree = "<group>"; };
+		D8FE9A3C1645B04D00AC03CF /* BlackJackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJackGame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D6F9D6163E1A5200D20981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D6F9CE163E1A5200D20981 = {
+			isa = PBXGroup;
+			children = (
+				D8D6F9DC163E1A5200D20981 /* Card Game Set up */,
+				D8D6F9DA163E1A5200D20981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D6F9DA163E1A5200D20981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D6F9D9163E1A5200D20981 /* Card Game Set up */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D6F9DC163E1A5200D20981 /* Card Game Set up */ = {
+			isa = PBXGroup;
+			children = (
+				D8D6F9DD163E1A5200D20981 /* main.cpp */,
+				D8FE9A3B1645B04D00AC03CF /* BlackJackGame.cpp */,
+				D8FE9A3C1645B04D00AC03CF /* BlackJackGame.h */,
+				D8AC642B164480A1003972FA /* WarGame.h */,
+				D8AC642A164480A1003972FA /* WarGame.cpp */,
+				D8D6F9EB163E1B5800D20981 /* PlayingCard.h */,
+				D8D6F9EA163E1B5800D20981 /* PlayingCard.cpp */,
+				D8D6F9F1163E1CB600D20981 /* CardDeck.h */,
+				D8D6F9F0163E1CB600D20981 /* CardDeck.cpp */,
+				D8D6F9EE163E1B7A00D20981 /* Player.h */,
+				D8D6F9ED163E1B7A00D20981 /* Player.cpp */,
+				D8D6F9E8163E1B1800D20981 /* Dealer.h */,
+				D8D6F9E7163E1B1800D20981 /* Dealer.cpp */,
+				D8D6F9DF163E1A5200D20981 /* Card_Game_Set_up.1 */,
+			);
+			path = "Card Game Set up";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D6F9D8163E1A5200D20981 /* Card Game Set up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D6F9E3163E1A5200D20981 /* Build configuration list for PBXNativeTarget "Card Game Set up" */;
+			buildPhases = (
+				D8D6F9D5163E1A5200D20981 /* Sources */,
+				D8D6F9D6163E1A5200D20981 /* Frameworks */,
+				D8D6F9D7163E1A5200D20981 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Game Set up";
+			productName = "Card Game Set up";
+			productReference = D8D6F9D9163E1A5200D20981 /* Card Game Set up */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D6F9D0163E1A5200D20981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andrew Matteson";
+			};
+			buildConfigurationList = D8D6F9D3163E1A5200D20981 /* Build configuration list for PBXProject "Card Game Set up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8D6F9CE163E1A5200D20981;
+			productRefGroup = D8D6F9DA163E1A5200D20981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D6F9D8163E1A5200D20981 /* Card Game Set up */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D6F9D5163E1A5200D20981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D6F9DE163E1A5200D20981 /* main.cpp in Sources */,
+				D8D6F9E9163E1B1800D20981 /* Dealer.cpp in Sources */,
+				D8D6F9EC163E1B5800D20981 /* PlayingCard.cpp in Sources */,
+				D8D6F9EF163E1B7A00D20981 /* Player.cpp in Sources */,
+				D8D6F9F2163E1CB600D20981 /* CardDeck.cpp in Sources */,
+				D8AC642C164480A1003972FA /* WarGame.cpp in Sources */,
+				D8FE9A3D1645B04D00AC03CF /* BlackJackGame.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8D6F9E1163E1A5200D20981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8D6F9E2163E1A5200D20981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8D6F9E4163E1A5200D20981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8D6F9E5163E1A5200D20981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D6F9D3163E1A5200D20981 /* Build configuration list for PBXProject "Card Game Set up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D6F9E1163E1A5200D20981 /* Debug */,
+				D8D6F9E2163E1A5200D20981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D6F9E3163E1A5200D20981 /* Build configuration list for PBXNativeTarget "Card Game Set up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D6F9E4163E1A5200D20981 /* Debug */,
+				D8D6F9E5163E1A5200D20981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D6F9D0163E1A5200D20981 /* Project object */;
+}
